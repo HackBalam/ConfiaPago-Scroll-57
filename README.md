@@ -1,30 +1,89 @@
-# Webpage with hardhat
+🛡️ ConfiaPago
+ConfiaPago is a decentralized platform that leverages blockchain technology to facilitate secure peer-to-peer transactions between buyers and sellers who meet on external channels like Facebook Marketplace, WhatsApp, or Instagram. It acts as a smart escrow system, enabling trust without relying on traditional intermediaries.
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+🚀 Technologies Used
+Blockchain: Scroll
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/daniellagart4-gmailcoms-projects/v0-webpage-with-hardhat)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/jgSstAegI9v)
+Stablecoin: USDT
 
-## Overview
+Frontend Stack: Next.js
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+Smart Contracts: Hardhat
 
-## Deployment
+Codebase: Scaffold-ETH 2
 
-Your project is live at:
+Authentication: Wallet-based login (MetaMask, WalletConnect, etc.)
 
-**[https://vercel.com/daniellagart4-gmailcoms-projects/v0-webpage-with-hardhat](https://vercel.com/daniellagart4-gmailcoms-projects/v0-webpage-with-hardhat)**
+🎯 Purpose
+ConfiaPago enables secure online deals between strangers by using smart contracts, decentralized escrow, AI-assisted visual proof, and a user-centered design approach.
 
-## Build your app
+👥 Main Actors
+Seller: Offers a product or service.
 
-Continue building your app on:
+Buyer: Pays to receive the product or service.
 
-**[https://v0.dev/chat/projects/jgSstAegI9v](https://v0.dev/chat/projects/jgSstAegI9v)**
+ConfiaPago Platform: Manages contracts, escrow, and user interactions.
 
-## How It Works
+🔄 Transaction Flow
+Initial Deal (Off-Platform): Buyer and seller agree on basic terms via social platforms.
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Agreement Creation: One party initiates an agreement on ConfiaPago using a simple form.
+
+Mutual Acceptance: The other party reviews and accepts or rejects the deal.
+
+Escrow Deposit: Buyer deposits the agreed amount in the smart contract.
+
+Delivery & Proof: Seller ships the item and uploads visual proof (photo/video).
+
+Confirmation & Release: Buyer verifies the item and authorizes payment release.
+
+Final Payment: The smart contract releases funds to the seller and a fee to ConfiaPago.
+
+🧠 UI/UX Design Guidelines
+Designed for non-technical users.
+
+Consistent visual and interaction language.
+
+Step-by-step guided workflow to prevent errors.
+
+Clear interface for agreement tracking.
+
+🛠️ Local Installation (Development)
+bash
+Copiar
+Editar
+# Clone the base repository
+git clone https://github.com/scaffold-eth/scaffold-eth-2.git confiapago
+cd confiapago
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+Make sure Hardhat and the Scroll network (local/testnet) are properly configured to deploy smart contracts.
+
+📂 Project Structure
+pgsql
+Copiar
+Editar
+/contracts       --> Smart contracts (Hardhat)
+/app             --> Web interface (Next.js)
+/public          --> Static assets
+/scripts         --> Deployment scripts
+🔒 Trust & Security
+100% on-chain escrow handling.
+
+Funds released only upon explicit buyer confirmation.
+
+Visual proof as delivery evidence.
+
+Wallet-based identity and fund control.
+
+👤 Author
+Developed by [Your Name or Team], part of the ConfiaPago initiative to empower safer peer-to-peer commerce in LATAM.
+
+📄 License
+This project is licensed under the MIT License.
+
+Let me know if you'd like me to generate a README.md file for download.
