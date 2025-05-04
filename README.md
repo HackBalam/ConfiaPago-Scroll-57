@@ -1,57 +1,78 @@
-🛡️ ConfiaPago
-ConfiaPago is a decentralized platform that leverages blockchain technology to facilitate secure peer-to-peer transactions between buyers and sellers who meet on external channels like Facebook Marketplace, WhatsApp, or Instagram. It acts as a smart escrow system, enabling trust without relying on traditional intermediaries.
 
-🚀 Technologies Used
-Blockchain: Scroll
+---
 
-Stablecoin: USDT
+# 🛡️ ConfiaPago
 
-Frontend Stack: Next.js
+**ConfiaPago** is a decentralized platform that leverages blockchain technology to facilitate secure peer-to-peer transactions between buyers and sellers who meet on external channels like **Facebook Marketplace**, **WhatsApp**, or **Instagram**. It acts as a smart escrow system, enabling trust without relying on traditional intermediaries.
 
-Smart Contracts: Hardhat
+---
 
-Codebase: Scaffold-ETH 2
+## 🚀 Technologies Used
 
-Authentication: Wallet-based login (MetaMask, WalletConnect, etc.)
+* **Blockchain**: [Scroll](https://scroll.io/)
+* **Frontend Stack**: [Next.js](https://nextjs.org/)
+* **Smart Contracts**: [Hardhat](https://hardhat.org/)
+* **Codebase**: [Scaffold-ETH 2](https://github.com/scaffold-eth/scaffold-eth-2)
+* **Authentication**: Wallet-based login (MetaMask, WalletConnect, etc.)
 
-🎯 Purpose
-ConfiaPago enables secure online deals between strangers by using smart contracts, decentralized escrow, AI-assisted visual proof, and a user-centered design approach.
+---
 
-👥 Main Actors
-Seller: Offers a product or service.
+## 🎯 Purpose
 
-Buyer: Pays to receive the product or service.
+ConfiaPago enables secure online deals between strangers by using:
 
-ConfiaPago Platform: Manages contracts, escrow, and user interactions.
+* ✅ Smart contracts
+* 🔐 Decentralized escrow
+* 🧠 AI-assisted visual proof (future roadmap)
+* 👨‍💻 User-centered design approach
 
-🔄 Transaction Flow
-Initial Deal (Off-Platform): Buyer and seller agree on basic terms via social platforms.
+---
 
-Agreement Creation: One party initiates an agreement on ConfiaPago using a simple form.
+## 👤 Main Actors
 
-Mutual Acceptance: The other party reviews and accepts or rejects the deal.
+* **Seller**: Offers a product or service.
+* **Buyer**: Pays to receive the product or service.
+* **ConfiaPago Platform**: Manages contracts, escrow, and user interactions.
 
-Escrow Deposit: Buyer deposits the agreed amount in the smart contract.
+---
 
-Delivery & Proof: Seller ships the item and uploads visual proof (photo/video).
+## 🔄 Transaction Flow
 
-Confirmation & Release: Buyer verifies the item and authorizes payment release.
+1. **Initial Deal (Off-Platform)**
+   Buyer and seller agree on basic terms via social platforms.
 
-Final Payment: The smart contract releases funds to the seller and a fee to ConfiaPago.
+2. **Agreement Creation**
+   One party initiates an agreement on ConfiaPago using a simple form.
 
-🧠 UI/UX Design Guidelines
-Designed for non-technical users.
+3. **Mutual Acceptance**
+   The other party reviews and accepts or rejects the deal.
 
-Consistent visual and interaction language.
+4. **Escrow Deposit**
+   Buyer deposits the agreed amount in the smart contract.
 
-Step-by-step guided workflow to prevent errors.
+5. **Delivery & Proof**
+   Seller ships the item and uploads visual proof (photo/video).
 
-Clear interface for agreement tracking.
+6. **Confirmation & Release**
+   Buyer verifies the item and authorizes payment release.
 
-🛠️ Local Installation (Development)
-bash
-Copiar
-Editar
+7. **Final Payment**
+   Smart contract releases funds to the seller and fee to ConfiaPago.
+
+---
+
+## 🧠 UI/UX Design Guidelines
+
+* Designed for **non-technical** users.
+* Consistent **visual and interaction language**.
+* **Step-by-step** guided workflow to prevent errors.
+* Clear interface for **agreement tracking**.
+
+---
+
+## 🛠️ Local Installation (Development)
+
+```bash
 # Clone the base repository
 git clone https://github.com/scaffold-eth/scaffold-eth-2.git confiapago
 cd confiapago
@@ -61,29 +82,41 @@ npm install
 
 # Run the development server
 npm run dev
-Make sure Hardhat and the Scroll network (local/testnet) are properly configured to deploy smart contracts.
+```
 
-📂 Project Structure
-pgsql
-Copiar
-Editar
+> 💡 Make sure Hardhat and the Scroll network (local/testnet) are properly configured to deploy smart contracts.
+
+---
+
+## 📂 Project Structure
+
+```
 /contracts       --> Smart contracts (Hardhat)
 /app             --> Web interface (Next.js)
 /public          --> Static assets
 /scripts         --> Deployment scripts
-🔒 Trust & Security
-100% on-chain escrow handling.
+```
 
-Funds released only upon explicit buyer confirmation.
+---
 
-Visual proof as delivery evidence.
+## 🔒 Trust & Security
 
-Wallet-based identity and fund control.
+* 💯 100% on-chain escrow handling.
+* 🔐 Funds released only upon **explicit buyer confirmation**.
+* 📸 Visual proof as delivery evidence.
+* 👛 Wallet-based identity and fund control.
 
-👤 Author
-Developed by [Your Name or Team], part of the ConfiaPago initiative to empower safer peer-to-peer commerce in LATAM.
+---
 
-📄 License
-This project is licensed under the MIT License.
+## 👤 Author
 
-Let me know if you'd like me to generate a README.md file for download.
+Developed by **Vianey Alvarez Alvarado and Daniel Bustamante Lagart**, part of the ConfiaPago initiative to empower safer peer-to-peer commerce in **LATAM**.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
