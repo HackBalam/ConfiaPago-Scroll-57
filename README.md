@@ -85,7 +85,7 @@ npm run dev
 ```
 
 > 💡 Make sure Hardhat and the Scroll network (local/testnet) are properly configured to deploy smart contracts.
-
+smart contract deploy: https://sepolia.scrollscan.com/address/0x5b2f76dd2a0e5e55611ffbdd2bb5c3cb68d0db9d
 ---
 
 ## 📂 Project Structure
